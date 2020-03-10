@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<!-- generated on Wed Mar  4 08:17:35 2020 by SUMO sumo Version 0.12.3
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/girikrish/Documents/projectfolder2/vanet.net.xml"/>
+        <route-files value="/home/girikrish/Documents/projectfolder2/vanet.rou.xml"/>
+    </input>
+
+    <output>
+        <netstate-dump value="/home/girikrish/Documents/projectfolder2/vanet.sumo.tr"/>
+        <emissions-output value="/home/girikrish/Documents/projectfolder2/output-emissions.xml"/>
+        <tripinfo-output value="/home/girikrish/Documents/projectfolder2/output-tripinfos.xml"/>
+        <vehroute-output value="/home/girikrish/Documents/projectfolder2/output-vehroutes.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+
+    <processing>
+        <route-steps value="-1"/>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <print-options value="false"/>
+    </report>
+
+    <random_number>
+        <srand value="23423"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value=""/>
+    </gui_only>
+
+</configuration>
+-->
+
+<routes>
+</routes>

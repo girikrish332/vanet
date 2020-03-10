@@ -1,0 +1,28 @@
+<edges>
+<edge id="e01" fromnode="n0" tonode="n1" priority="75" nolanes="2" speed="40"/>
+<edge id="e10" fromnode="n1" tonode="n0" priority="75" nolanes="2" speed="40"/>
+<edge id="e12" fromnode="n1" tonode="n2" priority="75" nolanes="2" speed="40"/>
+<edge id="e21" fromnode="n2" tonode="n1" priority="75" nolanes="2" speed="40"/>
+<edge id="e25" fromnode="n2" tonode="n5" priority="75" nolanes="2" speed="40"/>
+<edge id="e52" fromnode="n5" tonode="n2" priority="75" nolanes="2" speed="40"/>
+<edge id="e13" fromnode="n1" tonode="n3" priority="75" nolanes="2" speed="40"/>
+<edge id="e31" fromnode="n3" tonode="n1" priority="75" nolanes="2" speed="40"/>
+<edge id="e34" fromnode="n3" tonode="n4" priority="75" nolanes="2" speed="40"/>
+<edge id="e43" fromnode="n4" tonode="n3" priority="75" nolanes="2" speed="40"/>
+<edge id="e06" fromnode="n0" tonode="n6" priority="75" nolanes="2" speed="40"/>
+<edge id="e60" fromnode="n6" tonode="n0" priority="75" nolanes="2" speed="40"/>
+<edge id="e67" fromnode="n6" tonode="n7" priority="75" nolanes="2" speed="40"/>
+<edge id="e76" fromnode="n7" tonode="n6" priority="75" nolanes="2" speed="40"/>
+<edge id="e75" fromnode="n7" tonode="n5" priority="75" nolanes="2" speed="40"/>
+<edge id="e57" fromnode="n5" tonode="n7" priority="75" nolanes="2" speed="40"/>
+<edge id="e24" fromnode="n2" tonode="n4" priority="75" nolanes="2" speed="40"/>
+<edge id="e42" fromnode="n4" tonode="n2" priority="75" nolanes="2" speed="40"/>
+<edge id="e47" fromnode="n4" tonode="n7" priority="75" nolanes="2" speed="40"/>
+<edge id="e74" fromnode="n7" tonode="n4" priority="75" nolanes="2" speed="40"/>
+<edge id="e36" fromnode="n3" tonode="n6" priority="75" nolanes="2" speed="40"/>
+<edge id="e63" fromnode="n6" tonode="n3" priority="75" nolanes="2" speed="40"/>
+<edge id="e80" fromnode="n8" tonode="n0" priority="75" nolanes="2" speed="40"/>
+<edge id="e08" fromnode="n0" tonode="n8" priority="75" nolanes="2" speed="40"/>
+<edge id="e59" fromnode="n5" tonode="n9" priority="75" nolanes="2" speed="40"/>
+<edge id="e95" fromnode="n9" tonode="n5" priority="75" nolanes="2" speed="40"/>
+</edges>

@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+
+<!-- generated on Wed Mar  4 08:16:55 2020 by SUMO jtrrouter Version 0.12.3
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/jtrrouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/girikrish/Documents/projectfolder2/vanet.net.xml"/>
+        <flow-definition value="/home/girikrish/Documents/projectfolder2/vanet2.flow.xml"/>
+        <turn-definition value="/home/girikrish/Documents/projectfolder2/vanet2.turn.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/girikrish/Documents/projectfolder2/vanet.rou.xml"/>
+    </output>
+
+    <processing>
+        <continue-on-unbuild value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <suppress-warnings value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes>
+    <vehicle id="f0_0" depart="0.00">
+        <route edges="e80 e06 e67 e74 e42 e25 e59 e95 e52 e24 e43 e36 e60 e01 e13 e36 e67 e74 e47 e76 e63 e34 e47 e76 e63 e34 e43 e34 e47 e76 e60 e08 e80 e06 e63 e34 e42 e25 e57 e76 e60 e01 e10 e06 e63 e34 e47 e75 e57 e76 e63 e34 e47"/>
+    </vehicle>
+    <vehicle id="f1_0" depart="0.00">
+        <route edges="e95 e52 e24 e43 e31 e12 e24 e43 e34 e42 e25 e59 e95 e52 e24 e43 e36 e67 e74 e42 e25 e59 e95 e52 e21 e13 e34 e47 e76 e60 e08 e80 e06 e67 e74 e42 e24 e43 e31 e12 e21 e13 e36 e67 e74 e42 e24 e43 e31 e12 e24 e43 e31"/>
+    </vehicle>
+    <vehicle id="f0_1" depart="100.00">
+        <route edges="e80 e06 e63 e34 e47 e76 e60 e01 e13 e36 e67 e74 e43 e31 e10 e01 e13 e36 e67 e74 e42 e24 e43 e36 e63 e34 e47 e76 e63 e34 e47 e76 e63 e34 e42 e24 e43 e34 e43 e31 e10 e01 e10 e08 e80 e06 e63 e34 e47 e76 e60 e01 e10"/>
+    </vehicle>
+    <vehicle id="f1_1" depart="100.00">
+        <route edges="e95 e52 e21 e13 e36 e67 e74 e47 e76 e67 e74 e47 e76 e63 e34 e47 e75 e52 e21 e13 e36 e60 e01 e10 e06 e67 e74 e42 e21 e13 e34 e42 e21 e13 e36 e67 e74 e42 e21 e13 e31 e10 e01 e13 e36 e60 e08 e80 e06 e67 e74 e42 e21"/>
+    </vehicle>
+    <vehicle id="f0_2" depart="200.00">
+        <route edges="e80 e06 e63 e34 e42 e25 e57 e74 e42 e21 e13 e36 e67 e74 e43 e31 e10 e08 e80 e06 e63 e34 e42 e21 e13 e34 e47 e76 e63 e34 e47 e74 e42 e21 e13 e36 e67 e74 e43 e34 e42 e25 e59 e95 e52 e24 e43 e31 e12 e24 e43 e31 e12"/>
+    </vehicle>
+    <vehicle id="f1_2" depart="200.00">
+        <route edges="e95 e52 e24 e43 e36 e67 e74 e42 e21 e13 e31 e12 e25 e52 e24 e43 e31 e13 e36 e60 e01 e12 e24 e43 e31 e10 e08 e80 e06 e67 e74 e47 e76 e63 e34 e43 e34 e47 e76 e63 e34 e43 e31 e12 e25 e57 e75 e57 e74 e43 e34 e47 e75"/>
+    </vehicle>
+    <vehicle id="f0_3" depart="300.00">
+        <route edges="e80 e06 e67 e74 e43 e36 e67 e74 e42 e25 e57 e75 e52 e24 e43 e31 e10 e08 e80 e06 e63 e34 e47 e75 e52 e21 e13 e31 e12 e21 e13 e34 e43 e31 e10 e08 e80 e06 e63 e34 e42 e21 e13 e31 e12 e21 e13 e36 e60 e01 e12 e24 e43"/>
+    </vehicle>
+    <vehicle id="f1_3" depart="300.00">
+        <route edges="e95 e52 e21 e13 e34 e47 e75 e52 e24 e43 e36 e67 e74 e47 e74 e42 e25 e57 e74 e43 e31 e13 e36 e60 e01 e13 e36 e67 e74 e42 e24 e43 e36 e67 e74 e47 e75 e59 e95 e52 e21 e13 e34 e43 e36 e67 e74 e47 e74 e47 e76 e63 e34"/>
+    </vehicle>
+    <vehicle id="f0_4" depart="400.00">
+        <route edges="e80 e06 e67 e74 e42 e24 e43 e34 e42 e21 e13 e36 e60 e06 e63 e34 e47 e76 e63 e34 e42 e24 e43 e31 e12 e21 e13 e36 e60 e01 e12 e25 e52 e24 e43 e31 e13 e34 e42 e25 e57 e74 e42 e21 e13 e36 e60 e08 e80 e06 e63 e34 e47"/>
+    </vehicle>
+    <vehicle id="f1_4" depart="400.00">
+        <route edges="e95 e52 e24 e43 e31 e13 e34 e47 e74 e47 e74 e42 e25 e52 e21 e13 e34 e43 e36 e63 e34 e43 e36 e60 e01 e13 e31 e10 e06 e63 e34 e47 e76 e67 e74 e42 e25 e59 e95 e52 e21 e13 e36 e67 e74 e42 e25 e57 e76 e63 e34 e42 e21"/>
+    </vehicle>
+    <vehicle id="f0_5" depart="500.00">
+        <route edges="e80 e06 e67 e74 e43 e34 e42 e25 e59 e95 e52 e21 e13 e36 e60 e08 e80 e06 e67 e74 e43 e31 e12 e24 e43 e31 e12 e24 e43 e31 e12 e21 e13 e36 e63 e34 e47 e76 e63 e34 e47 e76 e60 e01 e10 e08 e80 e06 e67 e74 e42 e25 e52"/>
+    </vehicle>
+    <vehicle id="f1_5" depart="500.00">
+        <route edges="e95 e52 e21 e13 e36 e60 e08 e80 e06 e67 e74 e47 e76 e67 e74 e47 e76 e63 e34 e43 e31 e13 e34 e43 e36 e67 e74 e47 e75 e52 e24 e43 e36 e60 e01 e12 e24 e43 e34 e47 e75 e59 e95 e52 e24 e43 e31 e13 e36 e63 e34 e47 e74"/>
+    </vehicle>
+    <vehicle id="f0_6" depart="600.00">
+        <route edges="e80 e06 e63 e34 e47 e75 e57 e74 e42 e24 e43 e36 e60 e01 e12 e21 e13 e36 e60 e01 e13 e34 e42 e24 e43 e31 e13 e36 e67 e74 e43 e31 e10 e01 e13 e36 e63 e34 e43 e34 e43 e31 e13 e36 e67 e74 e42 e25 e57 e76 e63 e34 e47"/>
+    </vehicle>
+    <vehicle id="f1_6" depart="600.00">
+        <route edges="e95 e52 e21 e13 e36 e67 e74 e42 e25 e59 e95 e52 e24 e43 e31 e12 e25 e59 e95 e52 e21 e13 e36 e60 e01 e10 e06 e63 e34 e47 e76 e63 e34 e42 e24 e43 e34 e42 e25 e57 e75 e59 e95 e52 e21 e13 e36 e67 e74 e47 e75 e52 e24"/>
+    </vehicle>
+    <vehicle id="f0_7" depart="700.00">
+        <route edges="e80 e06 e63 e34 e42 e21 e13 e36 e67 e74 e43 e34 e47 e75 e59 e95 e52 e21 e13 e34 e42 e21 e13 e31 e12 e25 e57 e75 e57 e74 e42 e25 e57 e74 e47 e75 e57 e76 e63 e34 e47 e74 e43 e31 e12 e24 e43 e31 e13 e36 e67 e74 e42"/>
+    </vehicle>
+    <vehicle id="f1_7" depart="700.00">
+        <route edges="e95 e52 e21 e13 e34 e47 e76 e63 e34 e42 e21 e13 e34 e47 e76 e63 e34 e43 e31 e10 e06 e63 e34 e42 e25 e57 e75 e59 e95 e52 e21 e13 e36 e67 e74 e43 e36 e63 e34 e47 e76 e60 e08 e80 e06 e67 e74 e47 e76 e67 e74 e42 e25"/>
+    </vehicle>
+    <vehicle id="f0_8" depart="800.00">
+        <route edges="e80 e06 e67 e74 e42 e21 e13 e36 e60 e01 e10 e08 e80 e06 e67 e74 e42 e21 e13 e34 e47 e76 e63 e34 e42 e25 e52 e21 e13 e36 e63 e34 e42 e21 e13 e31 e10 e08 e80 e06 e63 e34 e42 e24 e43 e34 e42 e25 e57 e74 e42 e21 e13"/>
+    </vehicle>
+    <vehicle id="f1_8" depart="800.00">
+        <route edges="e95 e52 e21 e13 e34 e47 e74 e42 e25 e57 e74 e42 e25 e57 e76 e67 e74 e42 e21 e13 e34 e42 e25 e57 e74 e47 e76 e63 e34 e43 e31 e10 e06 e67 e74 e47 e74 e47 e75 e52 e21 e13 e36 e67 e74 e42 e25 e59 e95 e52 e24 e43 e34"/>
+    </vehicle>
+    <vehicle id="f0_9" depart="900.00">
+        <route edges="e80 e06 e63 e34 e43 e31 e10 e08 e80 e06 e67 e74 e42 e21 e13 e36 e67 e74 e43 e31 e12 e24 e43 e31 e12 e24 e43 e31 e10 e08 e80 e06 e63 e34 e42 e25 e57 e75 e59 e95 e52 e24 e43 e36 e60 e06 e63 e34 e47 e76 e60 e08 e80"/>
+    </vehicle>
+    <vehicle id="f1_9" depart="900.00">
+        <route edges="e95 e52 e24 e43 e36 e60 e08 e80 e06 e63 e34 e42 e24 e43 e31 e12 e25 e52 e24 e43 e31 e10 e08 e80 e06 e63 e34 e42 e25 e57 e74 e47 e74 e47 e75 e59 e95 e52 e21 e13 e34 e47 e75 e59 e95 e52 e21 e13 e34 e43 e31 e12 e24"/>
+    </vehicle>
+</routes>

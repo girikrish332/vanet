@@ -1,0 +1,28 @@
+<turn-defs>
+<interval begin="0" end="1000">
+	    <fromedge id="e06">
+		<toedge id="e67" probability="40"></toedge>
+	    </fromedge>
+	    <fromedge id="e67">
+		<toedge id="e75" probability="30"></toedge>
+	    </fromedge>
+	    <fromedge id="e75">
+		<toedge id="e52" probability="50"></toedge>
+	    </fromedge>
+	    <fromedge id="e06">
+		<toedge id="e63" probability="30"></toedge>
+	    </fromedge>
+	    <fromedge id="e63">
+		<toedge id="e34" probability="20"></toedge>
+	    </fromedge>
+	    <fromedge id="e34">
+		<toedge id="e42" probability="10"></toedge>
+	    </fromedge>
+	    <fromedge id="e52">
+		<toedge id="e21" probability="20"></toedge>
+	    </fromedge>
+	    <fromedge id="e21">
+		<toedge id="e10" probability="30"></toedge>
+	    </fromedge>
+</interval>
+</turn-defs>
